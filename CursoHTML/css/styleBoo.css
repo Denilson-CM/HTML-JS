@@ -1,0 +1,24 @@
+header{
+    background: chartreuse;
+    color: black;
+}
+
+.main{
+    background: brown;
+}
+
+.color1{
+    background: yellow;
+    color: black;
+}
+
+aside{
+    background: cyan;
+    color: black;
+}
+
+footer{
+    background: tomato;
+    color: beige;
+}
+

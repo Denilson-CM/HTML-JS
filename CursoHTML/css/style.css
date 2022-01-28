@@ -1,0 +1,110 @@
+/* ENLACES */
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(9, 255, 0);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body{
+  font-family: 'Palanquin Dark', sans-serif;
+  color: white;
+  overflow-x:hidden;
+}
+
+.container__tema{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  height: 80px;
+  
+}
+
+.header{
+  background-color: rgba(0, 0, 0, 0.438);
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 14vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.mtTitulo{
+  margin-top: 5rem;
+}
+
+.sectionP{
+  background-image: url("/imagenes/fo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .sectionP::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(107, 6%, 28%, 0.575);
+} */
+/* .sectionPCard__titulo{
+  margin: 90px;
+} */
+/* 14, 161, 83, 0.541 */
+.sectionPCard{
+  background-color: rgba(0, 0, 0, 0.63);
+  margin: 0 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* height: 40rem;
+  width: 30rem; */
+  overflow: hidden;
+}
+
+.sombraH{
+  box-shadow: -1px 10px 5px -2px rgba(0,0,0,0.64);
+  -webkit-box-shadow: -1px 10px 5px -2px rgba(0,0,0,0.64);
+  -moz-box-shadow: -1px 10px 5px -2px rgba(0,0,0,0.64);
+}
+
+.Cardsize{
+  height: 37rem;
+}
+.Cardsize2{
+  height: 48rem;
+}
+
+.sectionPCard__itemList{
+  margin-right: 40px;
+}
+
+.sectionPCard__Youtube{
+  height: 120px;
+  width: 240px;
+}
+
